@@ -1,0 +1,39 @@
+{
+  "name": "super_chance_questionnaire",
+  "version": "1.0.0",
+  "description": "Static Web Site for Super Chance Campaign",
+  "author": "Taketo Yoshida <tamanyan.sss@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "1.0.0-rc11",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "bulma": "^0.7.0",
+    "dotenv": "^5.0.1",
+    "vue-i18n": "^7.3.2",
+    "@fortawesome/fontawesome": "^1.1.7",
+    "@fortawesome/fontawesome-free-brands": "^5.0.12",
+    "@fortawesome/fontawesome-free-solid": "^5.0.12",
+    "@fortawesome/vue-fontawesome": "^0.0.22"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.8.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^7.0.1"
+  }
+}
